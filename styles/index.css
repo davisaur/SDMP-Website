@@ -74,6 +74,10 @@ body {
     text-shadow: 5px 5px #00000020;
 }
 
+#live-iframe {
+    display: none;
+}
+
 .colored-text {
     color:#006793;
 }
@@ -118,7 +122,6 @@ body {
 .user-img {
     height: 6em;
     border-radius: 8px;
-    background-color: white;
     outline: 5px solid #000000;
     margin: 0 0.5em;
     transform: rotate(-10deg) scale(0.95) translate(0px, 3px); 

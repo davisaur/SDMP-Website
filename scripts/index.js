@@ -23,5 +23,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").style.display = "none";
+    document.getElementById("live-iframe").style.display = "inline-block"
+    document.querySelector(".home-heading").innerHTML = "We're LIVE!"
   }
 }, 1000);
