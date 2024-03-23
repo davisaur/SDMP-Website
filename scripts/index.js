@@ -23,7 +23,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").style.display = "none";
-    document.getElementById("live-iframe").style.display = "inline-block"
-    document.querySelector(".home-heading").innerHTML = "We're LIVE!"
+    document.querySelector(".home-heading").innerHTML = "We're <span class=\"live-text\">LIVE</span>!"
+    document.getElementById("twitch-iframe").innerHTML = "<iframe src=\"https://player.twitch.tv/?channel=schlatt&parent=sdmp.davisaur.me\" width=\"480\" height=\"270\" allowfullscreen id=\"live-iframe\"> </iframe>";
   }
 }, 1000);

@@ -82,6 +82,10 @@ body {
     color:#006793;
 }
 
+.live-text {
+    color: #ff2e2e;
+}
+
 .users {
     flex: 1;
     width: 50%;
