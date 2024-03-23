@@ -16,6 +16,11 @@
 
 }
 
+@font-face {
+    font-family: 'RCT2';
+    src: url('/fonts/rct2.ttf') format('truetype');
+}
+
 body {
     background-image: url('/images/sdmp-background.png');
     background-size: 100% auto;
