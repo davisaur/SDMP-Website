@@ -201,15 +201,19 @@ a:hover p {
 
     .home-heading,
     #countdown {
-        font-size: 64px;
+        font-size: 48px;
+    }
+
+    .user-container {
+        overflow-x: visible;
     }
 
     .user-text h2 {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .sdmp-logo {
         content:url("/images/sdmp-logo.png");
-        max-width: 600px;
+        max-width: 350px;
     }
 }
