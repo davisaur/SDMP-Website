@@ -186,4 +186,8 @@ a:hover p {
     #countdown {
         font-size: 64px;
     }
+
+    .user-text h2 {
+        font-size: 48px;
+    }
 }
