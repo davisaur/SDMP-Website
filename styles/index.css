@@ -74,9 +74,9 @@ body {
     text-shadow: 5px 5px #00000020;
 }
 
-#live-iframe {
+/* #live-iframe {
     display: none;
-}
+} */
 
 .colored-text {
     color:#006793;
