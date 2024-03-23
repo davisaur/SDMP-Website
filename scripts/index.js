@@ -24,6 +24,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("countdown").style.display = "none";
     document.querySelector(".home-heading").innerHTML = "We're <span class=\"live-text\">LIVE</span>!"
-    document.getElementById("twitch-iframe").innerHTML = "<iframe src=\"https://player.twitch.tv/?channel=schlatt&parent=sdmp.davisaur.me\" width=\"480\" height=\"270\" allowfullscreen id=\"live-iframe\"> </iframe>";
+    document.querySelector(".home-container").innerHTML += "<iframe src=\"https://player.twitch.tv/?channel=schlatt&parent=sdmp.davisaur.me\" width=\"480\" height=\"270\" allowfullscreen id=\"live-iframe\"> </iframe>";
   }
 }, 1000);
