@@ -209,7 +209,7 @@ a:hover p {
     }
 
     .sdmp-logo {
-        content:url("/images/sdmp-logo.png");
-        
+        content:url("/images/SDMP-logo.png");
+        max-width: 600px;
     }
 }
