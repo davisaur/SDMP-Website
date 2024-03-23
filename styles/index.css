@@ -33,6 +33,12 @@ body {
     overflow-x: hidden;
 }
 
+.sdmp-logo {
+    content:url("/images/sdmp-banner-logo.png");
+    max-width: 600px;
+    
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -46,7 +52,6 @@ body {
 }
 
 .home-container {
-    width: 100%;
     text-align: center;
     margin: 0px;
     position: absolute;
@@ -159,6 +164,10 @@ a:hover p {
 }
 
 @media screen and (max-width: 1000px) {
+
+    body {
+        background-repeat: repeat-y;
+    }
     .wrapper {
         flex-direction: column;
     }
@@ -197,5 +206,10 @@ a:hover p {
 
     .user-text h2 {
         font-size: 48px;
+    }
+
+    .sdmp-logo {
+        content:url("/images/sdmp-logo.png");
+        
     }
 }
