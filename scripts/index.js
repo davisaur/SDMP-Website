@@ -35,7 +35,6 @@ const splashes = ["Fuck you!",
     "Make America Goon Again!"
 ];
 
-
 window.addEventListener("load", (event) => {
     var splash = splashes[Math.floor(Math.random()*splashes.length)];
     document.querySelector(".home-heading").innerHTML = splash;
