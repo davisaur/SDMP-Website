@@ -1,30 +1,42 @@
-// Set the date we're counting down to
-var countDownDate = new Date("March 23, 2024 18:00:00 EDT").getTime();
 
-// Update the countdown every second
-var x = setInterval(function() {
+const splashes = ["Fuck you!",
+    "Die!",
+    "Enjoying the goonsesh?",
+    "Keep gooning!",
+    "Zzz...",
+    "*Yawn*",
+    "I'm going to bed.",
+    "SDMP, baby!",
+    "eat pant conar",
+    "My father was a Funko Pop!",
+    "What did Hillary spit in that cup?",
+    "Baba Booey!",
+    "Liberal free!",
+    "Stream Lilac Boy!",
+    "Stream Alex Unknown!",
+    "funny cats 5",
+    "Sleep deprivation!",
+    "100% MrToasten Free!",
+    "Don't stop mewing!",
+    "Negative canthal tilt!",
+    "200% more airplanes!",
+    "Crack.",
+    "Peter, what are you doing?",
+    "WHAT THE FUCK?!",
+    "Sponsored by JetBlue!",
+    "Conservatives only!",
+    "Live. Laugh. Goon.",
+    "elon r u ok",
+    "I know what you are.",
+    "Game over.",
+    "English only!",
+    "Are you hard right now?",
+    "Four more years!",
+    "Make America Goon Again!"
+];
 
-  // Get the current date and time
-  var now = new Date().getTime();
-    
-  // Calculate the distance between now and the countdown date
-  var distance = countDownDate - now;
-    
-  // Calculate days, hours, minutes, and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Display the countdown
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-    
-  // If the countdown is over, display nothing
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").style.display = "none";
-    document.querySelector(".home-heading").innerHTML = "We're <span class=\"live-text\">LIVE</span>!"
-    document.querySelector(".home-container").innerHTML += "<iframe src=\"https://player.twitch.tv/?channel=schlatt&parent=sdmp.live\" width=\"480\" height=\"270\" allowfullscreen id=\"live-iframe\"> </iframe>";
-    startConfetti();
-  }
-}, 1000);
+
+window.addEventListener("load", (event) => {
+    var splash = splashes[Math.floor(Math.random()*splashes.length)];
+    document.querySelector(".home-heading").innerHTML = splash;
+});
