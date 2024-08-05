@@ -32,7 +32,7 @@ const splashes = ["Fuck you!",
     "English only!",
     "Are you hard right now?",
     "Four more years!",
-    "Make America Goon Again!"
+    "Make America Goon Again!",
     "insect.christmas"
 ];
 
