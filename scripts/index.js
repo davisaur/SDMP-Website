@@ -33,6 +33,7 @@ const splashes = ["Fuck you!",
     "Are you hard right now?",
     "Four more years!",
     "Make America Goon Again!"
+    "insect.christmas"
 ];
 
 window.addEventListener("load", (event) => {
